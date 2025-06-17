@@ -6,6 +6,7 @@ import WhatWeHaveForYou from "./components/homepage/WhatWeHaveForYou";
 import OurCards from "./components/homepage/OurCards";
 import FQA from "@/app/(public)/components/FQA";
 import JoinUs from "./components/homepage/JoinUs";
+import OurLocation from "./components/homepage/OurLocation";
 
 import { faqData } from "@/mock/FAQs";
 
@@ -36,14 +37,18 @@ export default function HomePage() {
                 </section>
             </div>
             <section>
+                {/* JoinUs */}
                 <JoinUs />
             </section>
             <div className="mx-auto max-w-[1400px] flex flex-col gap-10 px-4 md:px-0">
+                {/* OurLocation */}
+                <section>
+                    <OurLocation />
+                </section>
                 {/* FQA */}
                 <section>
                     <FQA faqItems={faqData} />
                 </section>
-                {/* JoinUs */}
             </div>
         </div>
     )

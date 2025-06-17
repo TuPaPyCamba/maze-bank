@@ -9,7 +9,7 @@ import JoinUsImg from "@/assets/img/joinus.png"
 const JoinUs = () => {
     return (
         <div className="w-full bg-MazeBlack">
-            <div className="max-w-[1400px] px-4 md:px-0 mx-auto py-16 lg:py-0 flex flex-col lg:flex-row items-center justify-between min-h-[70vh]">
+            <div className="max-w-[1400px] px-4 xl:px-0 mx-auto py-16 lg:py-0 flex flex-col lg:flex-row items-center justify-between min-h-[70vh]">
                 {/* Left Section: Content */}
                 <div className="w-full lg:w-1/2 flex flex-col justify-center text-white py-8 lg:py-0">
                     <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">

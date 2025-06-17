@@ -7,7 +7,7 @@ import LogWhite from "@/assets/img/logwhite.png"
 const Footer = () => {
     return (
         <footer className="w-full bg-MazeFooter">
-            <div className="mx-auto max-w-[1400px] flex flex-col pt-14 pb-24 gap-6 md:gap-8 px-4 md:px-0 text-MazeBarColor">
+            <div className="mx-auto max-w-[1400px] flex flex-col pt-14 pb-24 gap-6 md:gap-8 px-4 text-MazeBarColor">
                 {/* Logo and Social Media - Mobile: together, Desktop: separate */}
                 <div className="flex flex-row justify-between items-center md:justify-start">
                     <div className="flex flex-row gap-2 items-center">
