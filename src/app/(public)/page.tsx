@@ -5,6 +5,8 @@ import OurProducts from "./components/homepage/OurProducts"
 import WhatWeHaveForYou from "./components/homepage/WhatWeHaveForYou";
 import OurCards from "./components/homepage/OurCards";
 import FQA from "@/app/(public)/components/FQA";
+import JoinUs from "./components/homepage/JoinUs";
+
 import { faqData } from "@/mock/FAQs";
 
 export const metadata: Metadata = {
@@ -16,16 +18,32 @@ export default function HomePage() {
     return (
         <div className="min-h-screen">
             {/* Banner Slider */}
-            <BannerSlider />
+            <section>
+                <BannerSlider />
+            </section>
             {/* OurProducts */}
-            <OurProducts />
-            <div className="mx-auto max-w-[1400px] flex flex-col gap-10 px-4 md:px-0">
+            <section>
+                <OurProducts />
+            </section>
+            <div className="mx-auto max-w-[1400px] flex flex-col gap-10 px-4 pb-20 md:px-0">
                 {/* OurCards */}
-                <OurCards />
+                <section>
+                    <OurCards />
+                </section>
                 {/* WhatweHaveFotYou */}
-                <WhatWeHaveForYou />
+                <section>
+                    <WhatWeHaveForYou />
+                </section>
+            </div>
+            <section>
+                <JoinUs />
+            </section>
+            <div className="mx-auto max-w-[1400px] flex flex-col gap-10 px-4 md:px-0">
                 {/* FQA */}
-                <FQA faqItems={faqData} />
+                <section>
+                    <FQA faqItems={faqData} />
+                </section>
+                {/* JoinUs */}
             </div>
         </div>
     )

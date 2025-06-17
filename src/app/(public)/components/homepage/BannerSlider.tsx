@@ -52,7 +52,7 @@ const BannerSlider = () => {
                                 src={slide.image}
                                 alt={slide.title}
                                 fill
-                                className="object-cover"
+                                className="object-cover object-top"
                                 priority={index === 0}
                             />
                             {/* Overlay */}

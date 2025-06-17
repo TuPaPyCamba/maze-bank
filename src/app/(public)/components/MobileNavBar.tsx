@@ -48,8 +48,8 @@ const MobileNavBar = () => {
                 >
                     <nav className="flex flex-col gap-4">
                         {links.map(({ name, path }) => (
-                            <div className="p-2">
-                                <Link href={path} key={path} onClick={toggleMenu} className="font-medium text-xl">
+                            <div key={path} className="p-2">
+                                <Link href={path} onClick={toggleMenu} className="font-medium text-xl">
                                     {name}
                                 </Link>
                             </div>

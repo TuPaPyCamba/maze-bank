@@ -13,6 +13,15 @@ module.exports = {
                 MazeGray: "#E8E8E8",
                 MazeFooter: "#1F2937"
             },
+            screens: {
+                '360': '360px',
+                '600': '600px',
+                '700': '700px',
+                '850': '850px',
+                '900': '900px',
+                '1000': '1000px',
+                "1400": "1400px"
+            },
         },
     },
     plugins: [],
