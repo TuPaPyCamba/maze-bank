@@ -20,6 +20,12 @@ const nextConfig: NextConfig = {
                 hostname: "media-rockstargames-com.akamaized.net",
                 port: "",
                 pathname: "/**"
+            },
+            {
+                protocol: "https",
+                hostname: "img.clerk.com",
+                port: "",
+                pathname: "/**"
             }
         ]
     }

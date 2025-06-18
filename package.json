@@ -11,6 +11,8 @@
         "format:check": "prettier --check ."
     },
     "dependencies": {
+        "@clerk/clerk-react": "^5.32.0",
+        "@clerk/nextjs": "^6.22.0",
         "clsx": "^2.1.1",
         "mongoose": "^8.16.0",
         "next": "15.3.3",
